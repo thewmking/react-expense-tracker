@@ -15,6 +15,7 @@ module.exports = {
     'react/react-in-jsx-scope': 0,
     'react/no-unescaped-entities': 0,
     'no-unused-vars': 1,
+    'react/destructuring-assignment': 0,
   },
   plugins: [
     'react',
