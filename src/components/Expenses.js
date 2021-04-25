@@ -9,6 +9,7 @@ function Expenses(props) {
       title={ item.title }
       amount={ item.amount }
       date={ item.date }
+      key={ item.id }
     />
   );
   return (
