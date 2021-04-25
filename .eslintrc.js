@@ -16,6 +16,7 @@ module.exports = {
     'react/no-unescaped-entities': 0,
     'no-unused-vars': 1,
     'react/destructuring-assignment': 0,
+    'react/self-closing-comp': 0,
   },
   plugins: [
     'react',
