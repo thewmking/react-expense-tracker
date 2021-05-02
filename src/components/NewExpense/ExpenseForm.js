@@ -18,6 +18,9 @@ function ExpenseForm(props) {
           <input type="date" min="2000-01-01" step="2023-12-31" />
         </div>
       </div>
+      <div className="new-expense__actions">
+        <button type="submit">Add expense</button>
+      </div>
     </form>
   );
 }
