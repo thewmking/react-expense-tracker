@@ -1,11 +1,11 @@
-
+import './NewExpense.css';
+import ExpenseForm from './ExpenseForm';
 
 function NewExpense(props) {
 
   return (
-    <div>
-      <form>
-      </form>
+    <div className="new-expense">
+      <ExpenseForm />
     </div>
   );
 }

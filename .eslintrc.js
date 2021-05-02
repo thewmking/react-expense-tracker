@@ -17,6 +17,7 @@ module.exports = {
     'no-unused-vars': 1,
     'react/destructuring-assignment': 0,
     'react/self-closing-comp': 0,
+    'jsx-a11y/label-has-associated-control': 0,
   },
   plugins: [
     'react',
